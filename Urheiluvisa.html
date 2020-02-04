@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <title>Urheiluvisa</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/omat-tyylit.css" rel="stylesheet" type="text/css" />
+    <link href="css/Urheiluvisa.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script src="js/koodit.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="js/urheilukoodi.js"></script>
+
+
+</head>
+
+<body>
+
+    <div id="header"></div>
+    <div class="container">
+        <div class="row grid">
+            <div class="col-12 text-center">
+                <img id="logo" src="img/urheilu.png">
+
+                <!-- seuraavaan diviin ladataan kysymys -->
+                <div class="col-md" id="visa">
+                    <hr>
+                    <h4>Oletko urheilutietäjä?</h4>
+
+                    <p>Tässä visassa sinulle esitetään kymmenen urheiluun liittyvää kysymymästä.</p>
+
+                    <p>Lopuksi saat pokaalin sen mukaan miten onnistuit visassa.</p>
+
+                    <p>Onnea matkaan!</p>
+                    <hr>
+                </div>
+
+                <!-- tästä alkaa progressbar -->
+                <div class="col-md progress" hidden>
+                    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuemax="100"></div>
+                </div>
+
+                <!-- tästä alkaa button -->
+                <div class="col text-center">
+                    <button type="button" class="btn btn-dark" id="painike">Aloita visa!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</html>

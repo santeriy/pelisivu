@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+/* 
+    Created on : 6.11.2018, 14:54:54
+    Author     : Santeri
+*/
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+
+}
+
+
+p,
+h3 {
+    text-align: center;
+}
+
+footer {
+    margin-top: 0px;
+
+}
+
+.grid {
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 5px 5px 15px 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 1030px) {
+    .grid {
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+}
+
+.painike {
+
+    margin-top: 3%;
+
+}
+
+.oikein {
+    background-color: green;
+    color: white;
+}
+
+.vaarin {
+    background-color: red;
+    color: white;
+}
+
+h4 {
+    font-family: 'Archivo Black', sans-serif;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-shadow: 0px 2px 0 #000,
+    0px 0px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000;
+
+}
+
+.progress {
+
+    margin-left: 2.5%;
+    width: 95%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 2.5%;
+
+}
+
+@media screen and (max-width: 720px) {
+    .progress {
+
+        margin-left: 5%;
+        width: 90%;
+
+    }
+}
+
+.palkinto {
+    justify-content: center;
+}
+
+p {
+
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 25px;
+    margin-top: 5%;
+    color: white;
+    text-shadow: 0px 2px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#logo {
+    margin-top: -1%;
+    margin-bottom: -3%;
+}
+
+@media screen and (max-width: 400px) {
+    h4 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
